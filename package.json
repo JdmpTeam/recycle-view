@@ -1,7 +1,7 @@
 {
 	"name": "miniprogram-recycle-view",
-	"version": "0.1.5",
-	"description": "miniprogram custom component",
+	"version": "0.1.0",
+	"description": "jd miniprogram recycle-view component",
 	"main": "miniprogram_dist/index.js",
 	"scripts": {
 		"dev": "rm -f miniprogram_dev/project.config.json && gulp dev --develop",
@@ -16,9 +16,9 @@
 	"miniprogram": "miniprogram_dist",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wechat-miniprogram/recycle-view.git"
+		"url": "https://github.com/JdmpTeam/recycle-view.git"
 	},
-	"author": "jd-miniprogram",
+	"author": "JdmpTeam",
 	"license": "MIT",
 	"devDependencies": {
 		"babel-core": "^6.26.3",
