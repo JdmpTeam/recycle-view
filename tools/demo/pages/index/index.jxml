@@ -1,0 +1,8 @@
+<recycle-view class="recycle-list" placeholder-image="{{placeholderImage}}" bindscrolltolower="scrollToLower" scroll-with-animation="{{true}}" batch="{{batchSetRecycleData}}" batch-key="batchSetRecycleData" scroll-to-index="{{index}}" scroll-top="{{scrollTop}}" height="{{systemInfo.screenHeight - 20}}" id="recycleId">
+  <recycle-item style="width:{{viewWidth}}px;height:160px;" jd:for="{{recycleList}}" jd:key="sku">
+    <view class="recycle-itemsize" style="width:100%;height:160px;position: relative;">
+        <image class='recycle-image' style='width:80px;height:80px;' src="{{item.image}}"></image>
+        <view class="recycle-text">{{item.name}}-{{item.sku}}</view>
+    </view>
+  </recycle-item>
+</recycle-view>

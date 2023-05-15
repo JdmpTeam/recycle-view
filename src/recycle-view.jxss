@@ -1,0 +1,5 @@
+/* components/recycle-view/recycle-view.jxss */
+:host {
+  display: block;
+  width: 100%;
+}

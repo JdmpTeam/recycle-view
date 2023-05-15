@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "长列表组件",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default"
+  }
+}

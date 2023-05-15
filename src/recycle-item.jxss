@@ -1,0 +1,7 @@
+/* components/recycle-item/recycle-item.jdss */
+:host {
+  display: inline-block;
+}
+.jd-recycle-item {
+  height: 100%;
+}

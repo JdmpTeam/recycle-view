@@ -1,0 +1,4 @@
+<!--components/recycle-item/recycle-item.jxml-->
+<view class="jd-recycle-item">
+  <slot></slot>
+</view>
