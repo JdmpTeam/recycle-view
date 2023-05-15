@@ -1,6 +1,6 @@
 {
 	"name": "miniprogram-recycle-view",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "jd miniprogram recycle-view component",
 	"main": "miniprogram_dist/index.js",
 	"scripts": {
