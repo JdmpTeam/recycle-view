@@ -4,7 +4,7 @@ let j = 1
 let originData = data.response.goods;
 const systemInfo = jd.getSystemInfoSync()
 console.log(systemInfo)
-const createRecycleContext = require('miniprogram-recycle-view')
+const createRecycleContext = require('jdmp-recycle-view')
 
 Page({
   data: { 

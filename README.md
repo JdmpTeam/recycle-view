@@ -29,7 +29,7 @@
 长列表组件由2个自定义组件 recycle-view、recycle-item 和一组 API 组成，对应的代码结构如下
 
 ```yaml
-├── miniprogram-recycle-view/
+├── jdmp-recycle-view/
     └── recycle-view 组件
     └── recycle-item 组件
     └── index.js
@@ -48,7 +48,7 @@
 1. 安装组件
 
 ```
-npm install --save miniprogram-recycle-view
+npm install --save jdmp-recycle-view
 ```
 
 2. 在页面的 json 配置文件中添加 recycle-view 和 recycle-item 自定义组件的配置
@@ -56,8 +56,8 @@ npm install --save miniprogram-recycle-view
    ```json
    {
      "usingComponents": {
-       "recycle-view": "miniprogram-recycle-view/recycle-view",
-       "recycle-item": "miniprogram-recycle-view/recycle-item"
+       "recycle-view": "jdmp-recycle-view/recycle-view",
+       "recycle-item": "jdmp-recycle-view/recycle-item"
      }
    }
    ```
@@ -114,7 +114,7 @@ npm install --save miniprogram-recycle-view
 4. 页面 JS 管理 recycle-view 的数据
 
    ```javascript
-   const createRecycleContext = require('miniprogram-recycle-view')
+   const createRecycleContext = require('jdmp-recycle-view')
    Page({
        onReady: function() {
            var ctx = createRecycleContext({
@@ -141,10 +141,10 @@ npm install --save miniprogram-recycle-view
 
    `typescript`支持,使用如下方式引入
    ```typescript
-   import * as createRecycleContext from 'miniprogram-recycle-view';
+   import * as createRecycleContext from 'jdmp-recycle-view';
    ```
 
-   ​  页面必须通过 Component 构造器定义，页面引入了`miniprogram-recycle-view`包之后，会在 jd 对象下面新增接口`createRecycleContext`函数创建`RecycleContext`对象来管理 recycle-view 定义的的数据，`createRecycleContext`接收类型为1个 Object 的参数，Object 参数的每一个 key 的介绍如下：
+   ​  页面必须通过 Component 构造器定义，页面引入了`jdmp-recycle-view`包之后，会在 jd 对象下面新增接口`createRecycleContext`函数创建`RecycleContext`对象来管理 recycle-view 定义的的数据，`createRecycleContext`接收类型为1个 Object 的参数，Object 参数的每一个 key 的介绍如下：
 
    | 参数名    | 类型            | 描述                                                             |
    | -------- | --------------- | --------------------------------------------------------------- |
